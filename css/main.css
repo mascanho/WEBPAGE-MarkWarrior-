@@ -2278,7 +2278,7 @@ header .logo a {
 #contact {
 	background: #151515;
 	padding-top: 12rem;
-	padding-bottom: 7.2rem;
+	padding-bottom: .1rem;
 }
 #contact .section-intro h1 {
 	color: white;
@@ -2519,14 +2519,16 @@ header .logo a {
  */
 footer {
 	padding-bottom: 3rem;
+	padding-top: 10rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
+	
 }
 footer a, footer a:visited {
 	color: #FFFFFF;
 }
 footer a:hover, footer a:focus {
-	color: darkgrey;
+	color: red;
 }
 footer .row {
 	max-width: 900px;
@@ -2548,8 +2550,14 @@ footer .footer-social li {
 	padding: 0;
 }
 footer .footer-social li a {
-	color: #FFFFFF;
+	color: darkgrey;
 }
+
+footer .footer-social li a:hover {
+	color: white;
+}
+
+
 footer .copyright span {
 	display: inline-block;
 }
