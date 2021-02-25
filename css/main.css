@@ -1625,6 +1625,11 @@ header .logo a {
   margin-top: -1rem;
   float: left;
 }
+
+img {
+  width: 50%;
+  height: 100%;
+}
 .intro-info .lead {
   text-align: left;
   padding-left: 13rem;
